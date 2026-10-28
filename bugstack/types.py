@@ -15,7 +15,7 @@ class BugStackConfig:
     """Configuration for the BugStack SDK."""
 
     api_key: str
-    endpoint: str = "https://api.bugstack.dev/api/capture"
+    endpoint: str = "https://dashboard.bugstack.ai/api/ingest/sdk"
     project_id: str = ""
     environment: str = "production"
     auto_fix: bool = False
